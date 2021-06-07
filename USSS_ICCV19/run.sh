@@ -1,0 +1,1 @@
+python3 segment.py --basedir /raid/datasets/SemanticSegmentation/domain_adaptation/ --lr 0.001 --num-epochs 50 --batch-size 18 --savedir /raid/cs18btech11039/work/Sem_Seg/Domain-adaptation/Baselines/semi-supervised/level3/all_sources/TRAIN --datasets IDD CS Map gta bdds  --alpha 0 --beta 0 --resnet resnet_18 --model drnet --level 3 --resume

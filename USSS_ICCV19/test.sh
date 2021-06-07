@@ -1,0 +1,1 @@
+python3 test.py --basedir /raid/datasets/SemanticSegmentation/domain_adaptation/ --batch-size 1 --savedir /raid/cs18btech11039/work/Sem_Seg/Domain-adaptation/Baselines/semi-supervised/level3/all_sources/TEST/ --datasets IDD --resnet resnet_18 --model drnet --level 3 --state /raid/cs18btech11021/semi_supervise/All_level3/model_best.pth.tar --alpha 0 --beta 0 --lr 0.001
